@@ -1,0 +1,58 @@
+Sub pd()
+Dim i As Integer
+
+
+For i = 26 To 2 Step -1
+    '处理性别的代码
+    If Range("e" & i) = "男" Then
+        Range("f" & i) = "先生"
+    Else
+        Range("f" & i) = "女士"
+    End If
+    
+    '处理专业代号
+    If Range("b" & i) = "理工" Then
+        Range("c" & i) = "LG"
+    ElseIf Range("b" & i) = "文科" Then
+        Range("c" & i) = "WK"
+    Else
+        Range("c" & i) = "CJ"
+    End If
+        
+        
+        
+    If Range("d" & i) = "" Then
+        Range("D" & i).Select
+        Selection.EntireRow.Delete
+    End If
+        
+    
+
+Next
+
+
+End Sub
+
+
+
+
+
+Sub gzt()
+Dim i As Integer
+
+For i = 3 To 2000 Step 2
+
+    If Range("A" & i) = "" Then
+        Exit For
+    End If
+    
+    Rows("1:1").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("A" & i).Select
+    Selection.Insert Shift:=xlDown
+    
+Next
+
+
+End Sub
