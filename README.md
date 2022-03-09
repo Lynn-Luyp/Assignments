@@ -53,12 +53,11 @@
     - Coursera课程链接：[here](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow?specialization=tensorflow-in-practice)
 
 10. [SQL](https://github.com/Lynn-Luyp/Assignments/tree/main/SQL)
-    - 这包括了我自己做的SQL笔记，以及一些难题/易错题，从Leetcode/牛客网/sqlzoo等各个网站刷题积累的错题
+    - 包含我自己做的SQL笔记，以及一些难题/易错题，从Leetcode/牛客网/sqlzoo等各个网站刷题积累的错题
 
 11. [Python](https://github.com/Lynn-Luyp/Assignments/tree/main/Python)
-    - 包含中国大学MOOC的python课程课件和笔记
-    - 课程网站：[Python语言程序设计](https://www.icourse163.org/course/BIT-268001?outVendor=zw_mooc_pclszykctj_)
-    - [课件](https://github.com/Lynn-Luyp/Assignments/tree/main/Python/Mooc/Mooc%20pdf), [笔记](https://github.com/Lynn-Luyp/Assignments/blob/main/Python/Mooc/python%E7%AC%94%E8%AE%B0.py)
+    - 包含中国大学MOOC的python课程课件和笔记, 从[datacamp](https://www.datacamp.com/)下载下来的5个库的语法精华: [matplotlib](https://github.com/Lynn-Luyp/Assignments/blob/main/Python/matplotlib%20cheat%20sheet.pdf), [numpy](https://github.com/Lynn-Luyp/Assignments/blob/main/Python/numpy%20cheat%20sheet.pdf), [pandas](https://github.com/Lynn-Luyp/Assignments/blob/main/Python/pandas%20cheat%20sheet.pdf), [scipy](https://github.com/Lynn-Luyp/Assignments/blob/main/Python/scipy%20cheat%20sheet.pdf), [data wrangling](https://github.com/Lynn-Luyp/Assignments/blob/main/Python/wrangling%20cheat%20sheet.pdf)(这不是一个库)
+    - 课程网站：[Python语言程序设计](https://www.icourse163.org/course/BIT-268001?outVendor=zw_mooc_pclszykctj_), [课件](https://github.com/Lynn-Luyp/Assignments/tree/main/Python/Mooc/Mooc%20pdf), [笔记](https://github.com/Lynn-Luyp/Assignments/blob/main/Python/Mooc/python%E7%AC%94%E8%AE%B0.py)
 
 
 
