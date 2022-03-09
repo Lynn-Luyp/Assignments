@@ -1,0 +1,23 @@
+Sub test()
+Dim arr()
+Dim wb As Workbook
+
+arr = Application.GetOpenFilename("ExcelÎÄ¼þ,*.xls*", 2, , , True)
+
+If arr(1) <> "False" Then
+    For i = LBound(arr) To UBound(arr)
+        Set wb = Workbooks.Open(arr(i))
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        wb.Close
+    Next
+End If
+
+End Sub

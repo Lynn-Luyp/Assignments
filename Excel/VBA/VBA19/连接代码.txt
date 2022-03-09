@@ -1,0 +1,18 @@
+Excel文件
+
+Dim conn As New ADODB.Connection
+conn.Open "Provider = Microsoft.ACE.OLEDB.12.0;Data Source=D:\data\Edata.xlsx;extended properties=""excel 12.0;HDR=YES"""
+conn.Close
+
+ACCESS文件
+strConn = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\data\Adata.accdb"
+
+Mysql数据库
+strConn = "Provider=SQLOLEDB;DataSource=" & Path & ";Initial Catolog=" & strDataName
+
+
+MSSQL数据库
+strConn = "Provider=MSDASQL;Driver={SQL Server};Server=" & Path & ";Database=" & strDataName
+
+Oracle数据库
+strConn = "Provider=madaora;Data Source=MyOracleDB; User Id=UserID; Password=Password"

@@ -1,0 +1,23 @@
+Sub test()
+Dim arr()
+Dim wb, wb1 As Workbook
+
+
+
+Set wb1 = ActiveWorkbook
+arr = Application.GetOpenFilename("ExcelÎÄ¼þ,*.xls*", 2, , , True)
+
+If arr(1) <> "False" Then
+    For i = LBound(arr) To UBound(arr)
+        Set wb = Workbooks.Open(arr(i))
+        
+        For Each sht In wb.Sheets
+            sht.Copy after:=wb1.Sheets(wb1.Sheets.Count)
+            wb1.Sheets(wb1.Sheets.Count).Name = Split(wb.Name, ".")(0) & sht.Name
+        Next
+        
+        wb.Close
+    Next
+End If
+
+End Sub
