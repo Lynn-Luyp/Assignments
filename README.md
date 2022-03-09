@@ -2,7 +2,12 @@
 这用于我自学过程中学习到的所有课程的课件和作业答案，大致内容可以参考[我的学习笔记](http://www.xiaohongshu.com/discovery/item/61f760410000000021037d35?share_from_user_hidden=true&xhsshare=WeixinSession&appuid=599e78cf82ec396a8b13b4e4&apptime=1646861365)  
 每门课我都用python notebook做了笔记，在每门课的文件夹内以.ipynb结尾。但是因为我的四门课CNN的笔记超过了100M，不知道怎么上传
 
-1. [Machine Learning](https://github.com/Lynn-Luyp/Assignments/tree/main/Coursera-Machine%20Learning)
+
+1. [Excel](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel)
+    - 这是王佩丰老师的Excel课件+作业，一共分为3个课程：[基础课程](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel/Basic), [VBA](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel/VBA), [数据透视表](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel/%E7%8E%8B%E4%BD%A9%E4%B8%B0Excel2010%E6%95%B0%E6%8D%AE%E9%80%8F%E8%A7%86%E8%A1%A8%E8%AF%BE%E4%BB%B6)
+    - 基础课程的B站链接：[王佩丰Excel基础教程24讲完整版](https://www.bilibili.com/video/BV1yJ411s7wS?from=search&seid=9935850603319789450&spm_id_from=333.337.0.0)
+
+2. [Machine Learning](https://github.com/Lynn-Luyp/Assignments/tree/main/Coursera-Machine%20Learning)
     - 这是Coursera中吴恩达老师的机器学习经典课程，大约11周时间，每周都有课后习题，其中课后习题是MATLAB的作业
     - B站教学内容的链接：[here](https://www.bilibili.com/video/BV1Vx411Q7yn?from=search&seid=3281420596050406517&spm_id_from=333.337.0.0)
     - Coursera课程链接：[here](https://www.coursera.org/learn/machine-learning?)
@@ -46,9 +51,7 @@
     - B站教学内容的链接：[here](https://www.bilibili.com/video/BV1A5411b7w7?p=26)
     - Coursera课程链接：[here](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow?specialization=tensorflow-in-practice)
 
-9. [Excel](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel)
-    - 这是王佩丰老师的Excel课件+作业，一共分为3个课程：[基础课程](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel/Basic), [VBA](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel/VBA), [数据透视表](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel/%E7%8E%8B%E4%BD%A9%E4%B8%B0Excel2010%E6%95%B0%E6%8D%AE%E9%80%8F%E8%A7%86%E8%A1%A8%E8%AF%BE%E4%BB%B6).
-    - 基础课程的B站链接：[王佩丰Excel基础教程24讲完整版](https://www.bilibili.com/video/BV1yJ411s7wS?from=search&seid=9935850603319789450&spm_id_from=333.337.0.0)
+9. 
 
 
 
