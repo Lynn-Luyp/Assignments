@@ -1,0 +1,68 @@
+Sub eMailMergeWithAttachments()
+'使用前请在工具-引用中勾选microsoft outlook x.0 object library
+Dim docSource As Document, docMaillist As Document, docTempDoc As Document
+Dim rngDatarange As Range
+Dim i As Long, j As Long
+Dim lSectionsCount As Long
+ Dim bStarted As Boolean
+ Dim oOutlookApp As Outlook.Application
+ Dim oItem As Outlook.MailItem
+ 'Dim oAccount As Outlook.Account
+ Dim sMySubject As String, sMessage As String, sTitle As String
+ Set docSource = ActiveDocument
+ '检查Outlook是不是打开了。如果未打开的话，就打开新的Outlook
+ On Error Resume Next
+ Set oOutlookApp = GetObject(, "Outlook.Application")
+ If Err <> 0 Then
+     Set oOutlookApp = CreateObject("Outlook.Application")
+     bStarted = True
+ End If
+ '打开保存有客人的邮件地址和需要发送的附件的路径的word文档。
+ With Dialogs(wdDialogFileOpen)
+     .Show
+ End With
+ '将该文档设置为客户邮件（附件）列表文档
+ Set docMaillist = ActiveDocument
+ '设置发送邮件的账户（账户必须已经在Outlook中设置好了）
+ '注意：如果你的Outlook版本低于2007，使用设置发送邮件的账户可能会导致错误，
+ '建议将下面的Set oAccount = oOutlookApp.Session.Accounts.Item("someone@examplemail.com")语句删除
+ 'Set oAccount = oOutlookApp.Session.Accounts.Item("someone@examplemail.com")
+ '显示一个输入框，询问并让用户输入邮件主题
+ sMessage = "请为要发送的邮件输入邮件主题。"
+ sTitle = "输入邮件主题"
+ sMySubject = InputBox(sMessage, sTitle)
+ '循环查找源文档中所有的节（每一节为一封邮件内容），以及循环查找邮件列表文档中所有的客户信息，
+ '以便用于插入到生成的邮件中
+ lSectionsCount = docSource.Sections.Count - 1
+ '当源文档中的节数仅有1时，lSectionsCount=0，将导致程序无法正常运行。
+ '为了保证当源文档只有1节时程序能正常运行，必须使lSectionsCount至少等于1
+ If lSectionsCount = 0 Then lSectionsCount = 1
+ For j = 1 To lSectionsCount
+     Set oItem = oOutlookApp.CreateItem(olMailItem)
+     With oItem
+         '注意：如果你的Outlook版本低于2007，使用设置发送邮件的账户可能会导致错误，
+         '建议将下面的.SendUsingAccount = oAccount语句删除
+        ' .SendUsingAccount = oAccount
+         .Subject = sMySubject
+         .Body = docSource.Sections(j).Range.Text
+         Set rngDatarange = docMaillist.Tables(1).Cell(j, 1).Range
+         rngDatarange.End = rngDatarange.End - 1
+         .To = rngDatarange
+          For i = 2 To docMaillist.Tables(1).Columns.Count
+              Set rngDatarange = docMaillist.Tables(1).Cell(j, i).Range
+              rngDatarange.End = rngDatarange.End - 1
+              .Attachments.Add Trim(rngDatarange.Text), olByValue, 1
+          Next i
+          .Send
+      End With
+      Set oItem = Nothing
+  Next j
+  docMaillist.Close wdDoNotSaveChanges
+  '如果Outlook是由该宏打开的，则关闭Outlook
+  If bStarted Then
+      oOutlookApp.Quit
+  End If
+  MsgBox "共发送了 " & lSectionsCount & " 封邮件。"
+  '清空Outlook实例
+  Set oOutlookApp = Nothing
+End Sub
