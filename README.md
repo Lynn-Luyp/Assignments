@@ -30,6 +30,8 @@
     - B站教学内容的链接：[here](https://www.bilibili.com/video/BV1V441127zE?spm_id_from=333.999.0.0)
     - Coursera课程链接：[here](https://www.coursera.org/learn/deep-neural-network?specialization=deep-learning)
 
+
+
 7. [Deep Learning - course 2](https://github.com/Lynn-Luyp/Assignments/tree/main/Coursera-Deep%20learning%20Specialization/Course%202)
     - 这是Coursera中吴恩达老师的深度学习系列课程的第二门课，Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
     - B站教学内容的链接：[here](https://www.bilibili.com/video/BV1V441127zE?spm_id_from=333.999.0.0)
