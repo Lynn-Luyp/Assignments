@@ -30,12 +30,14 @@
     - B站教学内容的链接：[here](https://www.bilibili.com/video/BV1F4411y7BA?spm_id_from=333.999.0.0)
     - Coursera课程链接：[here](https://www.coursera.org/learn/nlp-sequence-models?specialization=deep-learning)
 
-
-
-7. [Deep Learning - course 2](https://github.com/Lynn-Luyp/Assignments/tree/main/Coursera-Deep%20learning%20Specialization/Course%202)
-    - 这是Coursera中吴恩达老师的深度学习系列课程的第二门课，Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
-    - B站教学内容的链接：[here](https://www.bilibili.com/video/BV1V441127zE?spm_id_from=333.999.0.0)
-    - Coursera课程链接：[here](https://www.coursera.org/learn/deep-neural-network?specialization=deep-learning)
-
+7. [Tensorflow - course 1](https://github.com/Lynn-Luyp/Assignments/tree/main/Coursera-Tensorflow%20Specialization/Course%201)
+    - 这是Coursera中吴恩达老师团队的Tensorflow系列课程的第一门课，Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+    - B站教学内容的链接：[here](https://www.bilibili.com/video/BV1A5411b7w7?from=search&seid=10547493448075596213&spm_id_from=333.337.0.0)
+    - Coursera课程链接：[here](https://www.coursera.org/learn/introduction-tensorflow?specialization=tensorflow-in-practice)
+    
+8. [Tensorflow - course 2](https://github.com/Lynn-Luyp/Assignments/tree/main/Coursera-Tensorflow%20Specialization/Course%202)
+    - 这是Coursera中吴恩达老师团队的Tensorflow系列课程的第二门课，Convolutional Neural Networks in TensorFlow
+    - B站教学内容的链接：[here](https://www.bilibili.com/video/BV1A5411b7w7?p=26)
+    - Coursera课程链接：[here](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow?specialization=tensorflow-in-practice)
 
 
