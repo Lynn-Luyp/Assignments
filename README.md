@@ -1,6 +1,6 @@
 # Assignments
 这用于我自学过程中学习到的所有课程的课件和作业答案  
-每门课我都用python notebook做了笔记，但是因为我每一门课的笔记都超过了25M，所以无法上传
+每门课我都用python notebook做了笔记，在每门课的文件夹内以.ipynb结尾。但是因为我地四门课CNN的笔记超过了100M，不知道怎么上传
 1. [Machine Learning](https://github.com/Lynn-Luyp/Assignments/tree/main/Coursera-Machine%20Learning)
     - 这是Coursera中吴恩达老师的机器学习经典课程，大约11周时间，每周都有课后习题，其中课后习题是MATLAB的作业
     - B站教学内容的链接：[here](https://www.bilibili.com/video/BV1Vx411Q7yn?from=search&seid=3281420596050406517&spm_id_from=333.337.0.0)
