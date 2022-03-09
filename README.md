@@ -46,4 +46,20 @@
     - B站教学内容的链接：[here](https://www.bilibili.com/video/BV1A5411b7w7?p=26)
     - Coursera课程链接：[here](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow?specialization=tensorflow-in-practice)
 
+9. [Excel](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel)
+    - 这是王佩丰老师的Excel课件+作业，一共分为3个课程：[基础课程](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel/Basic), [VBA](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel/VBA), [数据透视表](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel/%E7%8E%8B%E4%BD%A9%E4%B8%B0Excel2010%E6%95%B0%E6%8D%AE%E9%80%8F%E8%A7%86%E8%A1%A8%E8%AF%BE%E4%BB%B6).
+    - 基础课程的B站链接：[王佩丰Excel基础教程24讲完整版](https://www.bilibili.com/video/BV1yJ411s7wS?from=search&seid=9935850603319789450&spm_id_from=333.337.0.0)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
