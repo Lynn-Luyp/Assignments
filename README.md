@@ -6,7 +6,7 @@
 1. [Excel](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel)
     - 这是王佩丰老师的Excel课件+作业，一共分为3个课程：[基础课程](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel/Basic), [VBA](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel/VBA), [数据透视表](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel/%E7%8E%8B%E4%BD%A9%E4%B8%B0Excel2010%E6%95%B0%E6%8D%AE%E9%80%8F%E8%A7%86%E8%A1%A8%E8%AF%BE%E4%BB%B6)
     - 基础课程的B站链接：[王佩丰Excel基础教程24讲完整版](https://www.bilibili.com/video/BV1yJ411s7wS?from=search&seid=9935850603319789450&spm_id_from=333.337.0.0)
-    - VBA和数据透视表的课程被B站删除了，这里只有这两门课程的压缩包：[VBA](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel/VBA), [数据透视表](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel/%E7%8E%8B%E4%BD%A9%E4%B8%B0Excel2010%E6%95%B0%E6%8D%AE%E9%80%8F%E8%A7%86%E8%A1%A8%E8%AF%BE%E4%BB%B6)
+    - VBA和数据透视表的课程被B站删除了，这里只有这两门课程的压缩包：[VBA](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel/VBA.zip), [数据透视表](https://github.com/Lynn-Luyp/Assignments/blob/main/Excel/%E7%8E%8B%E4%BD%A9%E4%B8%B0Excel2010%E6%95%B0%E6%8D%AE%E9%80%8F%E8%A7%86%E8%A1%A8%E8%AF%BE%E4%BB%B6.zip)
 
 2. [Machine Learning](https://github.com/Lynn-Luyp/Assignments/tree/main/Coursera-Machine%20Learning)
     - 这是Coursera中吴恩达老师的机器学习经典课程，大约11周时间，每周都有课后习题，其中课后习题是MATLAB的作业
