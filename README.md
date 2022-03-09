@@ -62,7 +62,8 @@
         - [pandas](https://github.com/Lynn-Luyp/Assignments/blob/main/Python/pandas%20cheat%20sheet.pdf)
         - [scipy](https://github.com/Lynn-Luyp/Assignments/blob/main/Python/scipy%20cheat%20sheet.pdf)
         - [data wrangling](https://github.com/Lynn-Luyp/Assignments/blob/main/Python/wrangling%20cheat%20sheet.pdf)(这不是一个库)
-    - 课程网站：[Python语言程序设计](https://www.icourse163.org/course/BIT-268001?outVendor=zw_mooc_pclszykctj_), 课件：[课件](https://github.com/Lynn-Luyp/Assignments/tree/main/Python/Mooc/Mooc%20pdf), 笔记：[笔记](https://github.com/Lynn-Luyp/Assignments/blob/main/Python/Mooc/python%E7%AC%94%E8%AE%B0.py)
+    - 课程网站：[Python语言程序设计](https://www.icourse163.org/course/BIT-268001?outVendor=zw_mooc_pclszykctj_), 课件：[课件](https://github.com/Lynn-Luyp/Assignments/tree/main/Python/Mooc/Mooc%20pdf)
+    - 笔记：[Python笔记](https://github.com/Lynn-Luyp/Assignments/blob/main/Python/Mooc/python%E7%AC%94%E8%AE%B0.py)
 
 
 
