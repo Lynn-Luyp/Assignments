@@ -56,7 +56,9 @@
     - 这包括了我自己做的SQL笔记，以及一些难题/易错题，从Leetcode/牛客网/sqlzoo等各个网站刷题积累的错题
 
 11. [Python](https://github.com/Lynn-Luyp/Assignments/tree/main/Python)
-    - sss
+    - 包含中国大学MOOC的python课程课件和笔记
+    - 课程网站：[Python语言程序设计](https://www.icourse163.org/course/BIT-268001?outVendor=zw_mooc_pclszykctj_)
+    - [课件](https://github.com/Lynn-Luyp/Assignments/tree/main/Python/Mooc/Mooc%20pdf), [笔记](https://github.com/Lynn-Luyp/Assignments/blob/main/Python/Mooc/python%E7%AC%94%E8%AE%B0.py)
 
 
 
