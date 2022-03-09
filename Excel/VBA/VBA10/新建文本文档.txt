@@ -1,0 +1,49 @@
+Sub test()
+Dim str As String
+Dim wb As Workbook
+
+
+
+str = Dir("d:\data\*.xls*")
+
+For i = 1 To 100
+    Set wb = Workbooks.Open("d:\data\" & str)
+    
+    
+    
+    
+    
+    wb.Close
+    str = Dir
+    If str = "" Then
+        Exit For
+    End If
+Next
+
+
+
+
+End Sub
+
+
+
+
+Sub wjhb()
+Dim str As String
+Dim wb As Workbook
+
+str = Dir("d:\data\*.xls*")
+
+For i = 1 To 100
+    Set wb = Workbooks.Open("d:\data\" & str)
+    
+    wb.Sheets(1).Copy after:=ThisWorkbook.Sheets(ThisWorkbook.Sheets.Count)
+    ThisWorkbook.Sheets(ThisWorkbook.Sheets.Count).Name = Split(wb.Name, ".")(0)
+    
+    wb.Close
+    str = Dir
+    If str = "" Then
+        Exit For
+    End If
+Next
+End Sub
