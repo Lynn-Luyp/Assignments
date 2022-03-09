@@ -1,0 +1,22 @@
+select "南京" as 城市,"宠物用品" as 产品类别,* from [e:\数据\数据1\南京.xls].[宠物用品$]
+
+
+select "南京" as 城市,"宠物用品" as 产品类别,* from [e:\数据\数据1\南京.xls].[宠物用品$] union all select "南京" as 城市,"警告标志" as 产品类别,* from [e:\数据\数据1\南京.xls].[警告标志$] union all select "南京" as 城市,"户外睡袋" as 产品类别,* from [e:\数据\数据1\南京.xls].[户外睡袋$] union all select "苏州" as 城市,"宠物用品" as 产品类别,* from [e:\数据\数据1\苏州.xls].[宠物用品$] union all select "苏州" as 城市,"警告标志" as 产品类别,* from [e:\数据\数据1\苏州.xls].[警告标志$] union all select "苏州" as 城市,"户外睡袋" as 产品类别,* from [e:\数据\数据1\苏州.xls].[户外睡袋$]
+
+
+select * from [数据$] left join [产品信息$] on [数据$].产品类别=[产品信息$].品名
+select [数据$].*,[产品信息$].产品单价 from [数据$] left join [产品信息$] on [数据$].产品类别=[产品信息$].品名
+select [产品信息$].产品单价,[数据$].* from [数据$] left join [产品信息$] on [数据$].产品类别=[产品信息$].品名
+
+
+select A.产品类别,A.数量,B.产品单价 from [数据$]A left join [产品信息$]B on A.产品类别=B.品名
+
+
+select [数据$].*,[产品信息$].产品单价,[产品信息$].[P/N] from [数据$] left join [产品信息$] on [数据$].产品类别=[产品信息$].品名
+
+
+select [数据$].*,[产品信息$].产品单价 from [数据$] inner join [产品信息$] on [数据$].产品类别=[产品信息$].品名
+
+select * from ([数据$]A left join [产品信息$]B on A.产品类别=B.品名) left join [促销信息$]C on A.产品类别=C.品名
+
+select A.*,B.[P/N],B.产品单价,C.折扣 from ([数据$]A left join [产品信息$]B on A.产品类别=B.品名) left join [促销信息$]C on A.产品类别=C.品名

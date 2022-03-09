@@ -1,0 +1,13 @@
+系统要求
+http://technet.microsoft.com/zh-cn/library/ee835563.aspx
+
+
+
+下载
+http://www.microsoft.com/zh-cn/download/details.aspx?id=29074
+
+
+
+安装问题解决
+1、Excel选项-加载项-要求受信任的发布者签署应用-取消选择
+2、开发工具-com加载项-在加载项中勾选PowerPivot For Excel

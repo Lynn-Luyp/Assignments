@@ -1,0 +1,16 @@
+直接引用表
+select * from [数据$]
+
+直接关联多张表
+select * from [苏州$] union all select * from [无锡$] union all select * from [昆山$]
+
+关联表时加入标识字段
+select "苏州" as 城市,* from [苏州$] union all select "无锡" as 城市,* from [无锡$] union all select "昆山" as 城市,* from [昆山$]
+
+汇总结构不同的表
+select "苏州" as 城市,日期,产品类别,金额 from [苏州$] union all select "无锡" as 城市,日期,产品类别,金额 from [无锡$] union all select "昆山" as 城市,日期,产品类别,金额 from [昆山$]
+
+汇总计划与实际完成
+select "实际完成" as 类型,* from [销售数据$] union all select "计划完成" as 类型,null,null,null,null,null,null,所属区域,null,null,金额,null from [销售计划$]
+
+select "实际销量" as 类型,* from [销售数据$] union all select "计划销量" as 类型,null,null,销售部门,null,null,null,所属区域,产品类别,null,金额,null from [销售计划$]l,null,null,null,所属区域,null,null,金额,null from [销售计划$]

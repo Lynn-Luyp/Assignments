@@ -1,0 +1,1 @@
+select "昆山" as 城市,* from [昆山$] where (数量<20) union all select "苏州" as 城市,* from [苏州$] where (数量<20) union all select "无锡" as 城市,* from [无锡$] where (数量<20)
