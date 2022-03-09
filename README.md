@@ -25,7 +25,7 @@
     - 笔记：[course 3 笔记](https://github.com/Lynn-Luyp/Assignments/blob/main/Coursera-Deep%20learning%20Specialization/Course%203/DL%203%20structure.ipynb)
 
 5. [Deep Learning - course 4](https://github.com/Lynn-Luyp/Assignments/tree/main/Coursera-Deep%20learning%20Specialization/Course%204)
-    - 这是Coursera中吴恩达老师的深度学习系列课程的第四门课，Convolutional Neural Networks, 这门课程的一些数据集是缺失的，下载下来后运行会发现没有训练集，是因为训练集超过100张图片，GIthub一次性只能上传数量不超过100个的文件
+    - 这是Coursera中吴恩达老师的深度学习系列课程的第四门课，Convolutional Neural Networks, 这门课程的一些数据集是缺失的，下载下来后运行会发现没有训练集，是因为训练集超过100张图片，GIthub一次性只能上传数量不超过100个的文件。这门课没有笔记是因为笔记超过100M不能上传
     - B站教学内容的链接：[here](https://www.bilibili.com/video/BV1F4411y7o7?spm_id_from=333.999.0.0)
     - Coursera课程链接：[here](https://www.coursera.org/learn/convolutional-neural-networks?specialization=deep-learning)
 
