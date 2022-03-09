@@ -1,0 +1,34 @@
+Sub myMailMerge()
+'主文档的类型为信函
+'合并全部数据记录
+'假设主文档已链接好数据源，可以进行正常的邮件合并
+Dim myMerge As MailMerge, i As Integer, myname As String, t As String
+t = ActiveDocument.Path
+Set fso = CreateObject("scripting.filesystemobject")
+    If (fso.folderexists(t & "\拆分后文档")) Then
+     Else
+       Set f1 = fso.createfolder(t & "\拆分后文档")
+     End If
+Set myMerge = ActiveDocument.MailMerge
+With myMerge.DataSource
+    If .Parent.State = wdMainAndDataSource Then
+        .ActiveRecord = wdFirstRecord
+        For i = 1 To .RecordCount
+            .FirstRecord = i
+            .LastRecord = i
+            .Parent.Destination = wdSendToNewDocument
+            '取得数据源第1个和第2个字段（合并域）的当前数据字符串，用以命名文件
+            myname = .DataFields(2).Value & "(" & .DataFields(1).Value & ")"
+            .ActiveRecord = wdNextRecord
+            .Parent.Execute  '每次合并一个数据记录
+            With ActiveDocument
+                .Content.Characters.Last.Previous.Delete  '删除分节符
+                .SaveAs t & "\拆分后文档\" & myname '生成的各文档保存目录
+                .Close  '关闭生成的文档（已保存）
+            End With
+        Next
+    End If
+End With
+Application.ScreenUpdating = True
+MsgBox "拆分操作完毕!" & vbCrLf & "请到本目录下“拆分后文档”文件夹查看！！", vbInformation
+End Sub
