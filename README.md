@@ -65,7 +65,11 @@
     - 课程网站：[Python语言程序设计](https://www.icourse163.org/course/BIT-268001?outVendor=zw_mooc_pclszykctj_), 课件：[课件](https://github.com/Lynn-Luyp/Assignments/tree/main/Python/Mooc/Mooc%20pdf)
     - 笔记：[Python笔记](https://github.com/Lynn-Luyp/Assignments/blob/main/Python/Mooc/python%E7%AC%94%E8%AE%B0.py)
 
-
+12. [Latex](https://github.com/Lynn-Luyp/Assignments/tree/main/Latex)
+    - 由于我不擅长word排版，加上word插入公式实在太麻烦，所以我学习了Latex，在英国的论文都是使用Latex进行排版的
+    - B站课程链接：[Latex教程](https://www.bilibili.com/video/BV1no4y1U7At?spm_id_from=333.999.0.0)
+    - [Latex笔记](https://github.com/Lynn-Luyp/Assignments/blob/main/Latex/LaTex.ipynb)
+    - [Latex快速入门pdf](https://github.com/Lynn-Luyp/Assignments/blob/main/Latex/lshort-zh-cn.pdf)
 
 
 
