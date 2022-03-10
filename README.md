@@ -1,7 +1,10 @@
 # Assignments
 这用于我自学过程中学习到的所有课程的课件和作业答案，大致内容可以参考[我的学习笔记](http://www.xiaohongshu.com/discovery/item/61f760410000000021037d35?share_from_user_hidden=true&xhsshare=WeixinSession&appuid=599e78cf82ec396a8b13b4e4&apptime=1646861365)  
-每门课我都用python notebook做了笔记，在每门课的文件夹内以.ipynb结尾。但是因为我的深度学习的第四门课CNN的笔记超过了100M，不知道怎么上传
-
+注意事项: 
+* 每门课我都用python notebook做了笔记，在每门课的文件夹内以.ipynb结尾。但是因为我的深度学习的第四门课CNN的笔记超过了100M，不知道怎么上传
+* 所有的课后作业都是满分通过的，但是Coursera的部分课程的作业是每个月更新的，所以一个文件夹内会有3.4个文件，大家找到名字最长的那个文件大概率是我的作业，其他的文件是老师给的新版本的作业，是空的
+* Excel中的部分文件是已经做完完成的，新的文件的下载方法可以看B站链接
+* 觉得好用和有收获的uu们麻烦点一下⭐(Star)或者Fork！
 
 1. [Excel](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel)
     - 这是王佩丰老师的Excel课件+作业，一共分为3个课程：[基础课程](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel/Basic), [VBA](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel/VBA), [数据透视表](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel/%E7%8E%8B%E4%BD%A9%E4%B8%B0Excel2010%E6%95%B0%E6%8D%AE%E9%80%8F%E8%A7%86%E8%A1%A8%E8%AF%BE%E4%BB%B6)
