@@ -1,6 +1,6 @@
 # Assignments
 这用于我自学过程中学习到的所有课程的课件和作业答案，大致内容可以参考[我的学习笔记](http://www.xiaohongshu.com/discovery/item/61f760410000000021037d35?share_from_user_hidden=true&xhsshare=WeixinSession&appuid=599e78cf82ec396a8b13b4e4&apptime=1646861365)  
-每门课我都用python notebook做了笔记，在每门课的文件夹内以.ipynb结尾。但是因为我的四门课CNN的笔记超过了100M，不知道怎么上传
+每门课我都用python notebook做了笔记，在每门课的文件夹内以.ipynb结尾。但是因为我的深度学习的第四门课CNN的笔记超过了100M，不知道怎么上传
 
 
 1. [Excel](https://github.com/Lynn-Luyp/Assignments/tree/main/Excel)
