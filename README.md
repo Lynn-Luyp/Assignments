@@ -67,7 +67,7 @@
 
 12. [Latex](https://github.com/Lynn-Luyp/Assignments/tree/main/Latex)
     - 由于我不擅长word排版，加上word插入公式实在太麻烦，所以我学习了Latex，在英国的论文都是使用Latex进行排版的
-    - 推荐的Latex在线编辑网站[Overleaf](https://www.overleaf.com/login?)
+    - 推荐的Latex在线编辑网站 [Overleaf](https://www.overleaf.com/login?)
     - B站课程链接：[Latex教程](https://www.bilibili.com/video/BV1no4y1U7At?spm_id_from=333.999.0.0)
     - [Latex笔记](https://github.com/Lynn-Luyp/Assignments/blob/main/Latex/LaTex.ipynb)
     - [Latex快速入门pdf](https://github.com/Lynn-Luyp/Assignments/blob/main/Latex/lshort-zh-cn.pdf)
