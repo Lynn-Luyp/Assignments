@@ -9,7 +9,7 @@
     - VBA和数据透视表的课程被B站删除了，这里只有这两门课程的压缩包：[VBA](https://github.com/Lynn-Luyp/Assignments/blob/main/Excel/%E8%B7%9F%E7%9D%80%E7%8E%8B%E4%BD%A9%E4%B8%B0%E5%AD%A6VBA%E9%99%84%E4%BB%B6.zip), [数据透视表](https://github.com/Lynn-Luyp/Assignments/blob/main/Excel/%E7%8E%8B%E4%BD%A9%E4%B8%B0Excel2010%E6%95%B0%E6%8D%AE%E9%80%8F%E8%A7%86%E8%A1%A8%E8%AF%BE%E4%BB%B6.zip)
 
 2. [Machine Learning](https://github.com/Lynn-Luyp/Assignments/tree/main/Coursera-Machine%20Learning)
-    - 这是Coursera中吴恩达老师的机器学习经典课程，大约11周时间，每周都有课后习题，其中课后习题是MATLAB的作业
+    - 这是Coursera中吴恩达老师的机器学习经典课程，大约11周时间，每周都有课后习题，其中课后习题是MATLAB的作业，笔记超过500M无法上传
     - B站教学内容的链接：[here](https://www.bilibili.com/video/BV1Vx411Q7yn?from=search&seid=3281420596050406517&spm_id_from=333.337.0.0)
     - Coursera课程链接：[here](https://www.coursera.org/learn/machine-learning?)
 
