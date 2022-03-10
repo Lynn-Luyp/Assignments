@@ -63,7 +63,8 @@
         - [scipy](https://github.com/Lynn-Luyp/Assignments/blob/main/Python/scipy%20cheat%20sheet.pdf)
         - [data wrangling](https://github.com/Lynn-Luyp/Assignments/blob/main/Python/wrangling%20cheat%20sheet.pdf)(这不是一个库)
     - 课程网站：[Python语言程序设计](https://www.icourse163.org/course/BIT-268001?outVendor=zw_mooc_pclszykctj_), 课件：[课件](https://github.com/Lynn-Luyp/Assignments/tree/main/Python/Mooc/Mooc%20pdf)
-    - 笔记：[Python笔记](https://github.com/Lynn-Luyp/Assignments/blob/main/Python/Mooc/python%E7%AC%94%E8%AE%B0.py)
+    - [Python笔记](https://github.com/Lynn-Luyp/Assignments/blob/main/Python/Mooc/python%E7%AC%94%E8%AE%B0.py)
+    - [Matplotlib库实战笔记](https://github.com/Lynn-Luyp/Assignments/blob/main/Python/plt%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.ipynb)
 
 12. [Latex](https://github.com/Lynn-Luyp/Assignments/tree/main/Latex)
     - 由于我不擅长word排版，加上word插入公式实在太麻烦，所以我学习了Latex，在英国的论文都是使用Latex进行排版的
